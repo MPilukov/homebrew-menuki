@@ -1,28 +1,28 @@
 class Menuki < Formula
   desc "Interactive terminal menus and runbooks from a single JSON file"
   homepage "https://github.com/MPilukov/menuki"
-  version "0.1.4"
+  version "0.1.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/MPilukov/menuki/releases/download/v0.1.4/menuki-osx-arm64.tar.gz"
-      sha256 "8e8bac175579576e1f3ce0277778e7b6c38cab8f51e8deb012e42b7efa0d7b44"
+      url "https://github.com/MPilukov/menuki/releases/download/v0.1.5/menuki-osx-arm64.tar.gz"
+      sha256 "4788a1c2d6f9a2d7fbab564d23121c423856e29527badee9d695907a8421a11d"
     end
     on_intel do
-      url "https://github.com/MPilukov/menuki/releases/download/v0.1.4/menuki-osx-x64.tar.gz"
-      sha256 "5ac4be1932442350633b122c354930c484c2e0245c6e30ff41afa961b0981f0c"
+      url "https://github.com/MPilukov/menuki/releases/download/v0.1.5/menuki-osx-x64.tar.gz"
+      sha256 "e442c2c2631fb2c5b14cc64ef7222c3f4785c8a067cd61ad4d88b825b635ffc9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/MPilukov/menuki/releases/download/v0.1.4/menuki-linux-arm64.tar.gz"
-      sha256 "deba8fbf0efa05bb913899c958c8dd63b967b770a72f3b5387dcfdceb826da46"
+      url "https://github.com/MPilukov/menuki/releases/download/v0.1.5/menuki-linux-arm64.tar.gz"
+      sha256 "df5fbf2c60db1b46eb2edb331e10013c6e327df39eb8e2d8c98f8b634ccfe549"
     end
     on_intel do
-      url "https://github.com/MPilukov/menuki/releases/download/v0.1.4/menuki-linux-x64.tar.gz"
-      sha256 "28b1f4ef8b281da12d04af4ca8a961dafc54175efd7f539fd25326b82ba201dc"
+      url "https://github.com/MPilukov/menuki/releases/download/v0.1.5/menuki-linux-x64.tar.gz"
+      sha256 "e249131849ffb66629bd9137528d4e3ba6485e4a44c550704a2cf651c0582480"
     end
   end
 
